@@ -1,0 +1,21 @@
+[[-
+[[$articles-list]]
+]]
+
+<div class="view view-news-articles view-id-news_articles view-display-id-page_3">
+    <div class="view-content">
+
+        [[!pdoPage@pagination?
+        &parents=`13`
+        &limit=`5`
+        &tpl=`articles-list__tpl`
+        &includeTVs=`images`
+        &includeContent=`1`
+        ]]
+
+    <h2 class="element-invisible">Страницы</h2>
+    <div class="item-list">
+        [[!+page.nav]]
+        </div>
+    </div>
+</div>
